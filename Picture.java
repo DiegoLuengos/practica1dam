@@ -98,4 +98,13 @@ public class Picture
             sun.changeColor("blue");
         }
     }
+    public void moveSun()
+    {
+        if (sun !=null)
+        {
+        sun.slowMoveVertical(170);
+    }
 }
+}
+
+
