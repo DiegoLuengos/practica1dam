@@ -17,6 +17,7 @@ public class Picture
     private Circle earth;
     private Circle sun2;
     private Circle sun;
+    private Person diego;
     /**
      * Constructor for objects of class Picture
      */
@@ -69,6 +70,7 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
+       
     }
 
     /**
@@ -109,6 +111,17 @@ public class Picture
         earth.changeColor("black");
     }
 }
+public void moonWalk()
+{
+    if (wall != null)
+    {
+        diego = new Person();
+        diego.moveHorizontal(-350);
+        diego.moveVertical(30);
+        diego.makeVisible();
+        diego.slowMoveHorizontal(375);
+    
+
 }
-
-
+}
+}
