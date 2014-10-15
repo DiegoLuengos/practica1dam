@@ -103,6 +103,10 @@ public class Picture
         if (sun !=null)
         {
         sun.slowMoveVertical(170);
+        wall.changeColor("black");
+        window.changeColor("white");
+        roof.changeColor("black");
+        earth.changeColor("black");
     }
 }
 }
